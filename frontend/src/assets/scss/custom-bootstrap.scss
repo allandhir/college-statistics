@@ -1,0 +1,120 @@
+@import "./variables";
+// // Import bootstrap
+@import "~bootstrap/scss/bootstrap.scss";
+@import "~antd/dist/antd.css";
+
+.page-center {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 50vh;
+}
+thead[class*="ant-table-thead"] th {
+  background-color: $primary !important;
+  color: white;
+}
+
+.fade-in {
+  animation: fadeIn ease 1.5s;
+  -webkit-animation: fadeIn ease 1.5s;
+  -moz-animation: fadeIn ease 1.5s;
+  -o-animation: fadeIn ease 1.5s;
+  -ms-animation: fadeIn ease 1.5s;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-moz-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-o-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-ms-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+html {
+  scroll-behavior: smooth;
+}
+.ant-table {
+  display: block;
+
+  @media screen and (max-width: 600px) {
+    &-thead {
+      display: none;
+    }
+
+    &-thead > tr,
+    &-tbody > tr {
+      th,
+      td {
+        &:first-of-type {
+          padding-top: 1rem;
+        }
+
+        &:last-of-type {
+          padding-bottom: 1rem;
+        }
+      }
+
+      > th,
+      > td {
+        display: block;
+        width: auto !important;
+        border: none;
+        padding: 0 1rem;
+        font-size: 1.1rem;
+
+        &:last-child {
+          border-bottom: 1px solid #eee;
+        }
+      }
+    }
+  }
+}
+// .blue-bg-gradient {
+//   background: linear-gradient(180deg, #283149 0%, #404b69 48.34%, #283149 100%);
+// }
+
+// .absolute {
+//   position: absolute;
+// }
+
+// .bg-gray {
+//   background-color: #ececec;
+// }

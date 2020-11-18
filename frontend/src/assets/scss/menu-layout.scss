@@ -1,0 +1,34 @@
+@import "./_variables.scss";
+.ThreePartLayout {
+  .trigger {
+    font-size: 18px;
+    color: white;
+    line-height: 40px;
+    padding: 0 20px;
+    cursor: pointer;
+    transition: color 0.3s;
+  }
+
+  .trigger:hover {
+    color: $secondary;
+  }
+  .logo {
+    height: 32px;
+    background: rgba(255, 255, 255, 0.2);
+    margin: 16px;
+  }
+
+  .site-layout .site-layout-background,
+  aside.ant-layout-sider-dark,
+  .ant-menu.ant-menu-dark {
+    background: $primary;
+  }
+
+  .ant-menu-item-selected {
+    background: $secondary !important;
+  }
+
+  .ant-layout-header {
+    height: 68px;
+  }
+}

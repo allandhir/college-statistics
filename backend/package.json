@@ -1,0 +1,40 @@
+{
+  "name": "safe-quiz",
+  "version": "1.0.0",
+  "private": true,
+  "description": "generated with Skaffolder    www.skaffolder.com  ",
+  "scripts": {
+    "start": "node index.js",
+    "debug": "nodemon --inspect index.js"
+  },
+  "engines": {
+    "node": "14.x"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@sentry/node": "^5.24.2",
+    "@sentry/tracing": "^5.24.2",
+    "body-parser": "^1.17.2",
+    "chalk": "^2.4.2",
+    "cookie-parser": "^1.4.5",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "erel": "^1.1.0",
+    "esm": "^3.2.22",
+    "express": "^4.16.4",
+    "express-jwt": "^5.3.1",
+    "extend": "^3.0.1",
+    "faker": "^5.1.0",
+    "helmet": "^3.16.0",
+    "lodash": "^4.17.20",
+    "mongoose": "^5.5.0",
+    "nodemon": "^1.11.0",
+    "swagger-ui-express": "^2.0.15",
+    "tracer": "^0.8.9",
+    "winston": "^3.2.1",
+    "yamljs": "^0.3.0"
+  },
+  "repository": {}
+}

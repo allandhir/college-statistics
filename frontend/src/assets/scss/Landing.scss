@@ -1,0 +1,15 @@
+.gradient {
+  background: #56ccf2; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    45deg,
+    #283264,
+    #028dff
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    45deg,
+    #283264,
+    #028dff
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  color: white;
+}
